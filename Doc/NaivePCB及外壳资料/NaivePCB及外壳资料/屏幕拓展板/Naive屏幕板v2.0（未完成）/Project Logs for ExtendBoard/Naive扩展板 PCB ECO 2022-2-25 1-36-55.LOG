@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=GND Pin=662K-1
+Removed Pin From Net: NetName=3V3 Pin=662K-2
+Removed Pin From Net: NetName=VDD_5V Pin=662K-3
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=3V3 Pin=C1-2
+Removed Member From Class: ClassName=Main Member=662K
+Change Component Footprint: Designator=C1 Old Footprint=C 0402_M New Footprint=C 0402_L
+Change Component Comment : Designator=C1 Old Comment=104 New Comment=1uF
+Added Component: Designator=C2(C 0402_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "材质"; Value = "X7R"; VariantName = "[No Variations]"
+Added Component: Designator=C3(C 1210_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "材质"; Value = "X7R"; VariantName = "[No Variations]"
+Added Component: Designator=L1(NR4030)
+Add component (AddParameter): Name = "BOM名称"; Value = "NR磁胶电感"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES_0402)
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES_0402)
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES_0402)
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES_0402)
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOT23-6L)
+Add component (AddParameter): Name = "BOM名称"; Value = "DC降压芯片"; VariantName = "[No Variations]"
+Added Component: Designator=V1(SOT23-5L)
+Add component (AddParameter): Name = "BOM名称"; Value = "低功耗LDO"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=3V3 Pin=C3-2
+Added Pin To Net: NetName=3V3 Pin=CON1-2
+Added Pin To Net: NetName=3V3 Pin=L1-1
+Added Pin To Net: NetName=VDD_5V Pin=R2-2
+Added Pin To Net: NetName=3V3 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=VDD_5V Pin=U1-3
+Added Pin To Net: NetName=VDD_5V Pin=V1-1
+Added Pin To Net: NetName=GND Pin=V1-2
+Added Pin To Net: NetName=VDD_5V Pin=V1-3
+Added Pin To Net: NetName=3V3 Pin=V1-5
+Added Pin To Net: NetName=FB Pin=R4-2
+Added Pin To Net: NetName=FB Pin=U1-4
+Added Net: Name=FB
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-6
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=L1-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-2
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U1-5
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R4-1
+Added Pin To Net: NetName=NetR3_1 Pin=R5-1
+Added Net: Name=NetR3_1
+Added Member To Class: ClassName=Main Member=Component C2 1uF
+Added Member To Class: ClassName=Main Member=Component C3 44uF
+Added Member To Class: ClassName=Main Member=Component L1 6.8uH
+Added Member To Class: ClassName=Main Member=Component R2 100K
+Added Member To Class: ClassName=Main Member=Component R3 40.2K
+Added Member To Class: ClassName=Main Member=Component R4 40.2K
+Added Member To Class: ClassName=Main Member=Component R5 13K
+Added Member To Class: ClassName=Main Member=Component U1 MP1471 降压芯片
+Added Member To Class: ClassName=Main Member=Component V1 ME6211
+Added Room: Name=Main
